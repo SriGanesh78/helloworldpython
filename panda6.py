@@ -1,5 +1,6 @@
 import sys
-print("before:", sys.path)
+print("before:")
+print(sys.path)
 sys.path.append(r'/home/ubuntu/.local/lib/python3.6/site-packages')
 print("after:", sys.path)
 
